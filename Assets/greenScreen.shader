@@ -18,20 +18,20 @@
 	
     struct v2f {
         float4 pos : SV_POSITION;
-        float2 sPos;
+        float4 sPos;
     };
 
     v2f vert (appdata_base v)
     {
         v2f o;
         o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
-        o.sPos = o.pos.xy/o.pos.w;
+        o.sPos = o.pos;
         return o;
     }
 
     half4 frag (v2f i) : COLOR
     {
-        half4 col = tex2D (_MainTex, i.sPos);
+        half4 col = tex2D (_MainTex, i.sPos.xy / i.sPos.w);
         return col;
     }
     ENDCG
