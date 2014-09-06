@@ -20,5 +20,24 @@ Material:
           m_Texture: {fileID: 15200000, guid: d2d001c557223524f9642c1e5ec2beb2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackTex
+        second:
+          m_Texture: {fileID: 15200000, guid: 61ca3863967e1534084fb5d48ac397a0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats: {}
-    m_Colors: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .611764729, g: .600000024, b: .521568656, a: 1}
+      data:
+        first:
+          name: _ColorScreen
+        second: {r: .611764729, g: .600000024, b: .521568656, a: 0}
+      data:
+        first:
+          name: _ScreenColor
+        second: {r: .611764729, g: .600000024, b: .521568656, a: 1}
