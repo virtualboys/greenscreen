@@ -55,9 +55,10 @@
      <Compile Include="Assets\First Person Drifter Controller\Scripts\Optional\HeadBob.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\Optional\PauseMenu.cs" />
      <Compile Include="Assets\First Person Drifter Controller\Scripts\Utils\CameraFade.cs" />
-     <Compile Include="Assets\playMov.cs" />
+     <Compile Include="Assets\Scripts\playMov.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\First Person Drifter Controller\info.txt" />
-     <None Include="Assets\greenScreen.shader" />
+     <None Include="Assets\Shaders\greenScreen.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
